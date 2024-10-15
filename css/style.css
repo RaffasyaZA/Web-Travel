@@ -244,7 +244,11 @@
         left: 600px;
     }
 
-
+    .exp h1{
+        position: relative;
+        top: 200px;
+        left: 145px;
+    }
     .fsc img{
         height: 650px;
         width: 100%;
@@ -255,8 +259,9 @@
     }
     .fsc h1{
         text-align: center;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         font-family: Arial;
+        position: relative;
     }
     .imags h1{
         position: relative;
@@ -266,38 +271,132 @@
         font-size: 40px;
         color: white;
     }
+    .imags p a{
+        background-color: tomato;
+        padding: 10px;
+        position: relative;
+        top:140px;
+        border-radius: 10px;
+        color: rgb(113, 113, 113);
+        text-decoration: none;
+        transition-duration: 300ms;
+    }
+    .imags p a:hover{
+        background-color: rgb(207, 44, 16);
+        color: rgb(255, 255, 255);
+        padding: 20px;
+    }
     .imags p{
         position: relative;
-        bottom: 500px;
+        bottom: 400px;
         left: 150px;
-        width: 350px;
-        font-size: 20px;
-        color: azure;
+        width: 400px;
+        font-size: 25px;
+        color: rgb(0, 0, 0);
         font-family: arial;
         border-top: 3px solid black;
     }
-    .imags .imeg{
-        height: 500px;
-        width:500px;
-        position: relative;
-        bottom: 800px;
-        left: 700px;
-        border-radius: 30px;
-        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-    }
+
+
+    
     footer{
         background-color: black;
-        height: 400px;
-        color: white;
+        width: 100%;
+        height:300px;
+        position: relative;
     }
     footer p{
-        text-align: center;
-        position: relative;
-        top: 350px;
+        color: white;
         font-size: 25px;
-        border-top: 3px solid;
+        position: relative;
+        text-align: center;
+        font-weight:bold;
+        font-family: arial;
+
+    }
+    footer ul li{
+        list-style: none;
+        margin-bottom: 10px;
+        position: relative;
+        left: 500px;
+        margin-left: 23px;
         display: inline;
-        margin: auto;
+        justify-content: center;
+        text-align: center;
+    }
+    footer li a{
+        color: white;
+        text-decoration: none;
+        position: relative;
+        top: 40px;
+        text-align: center;
+        left: 55px;
+        font-size: 20px;
+        justify-content: center;
     }
 
+    .contacts h4{
+        color: white;
+        font-family: arial;
+        position: relative;
+        bottom: 50px;
+        font-size: 25px;
+        left: 1150px;
+
+    }
+    .contacts p{
+        font-size: 20px;
+        font-weight: 400;
+        position: relative;
+        left: 480px;
+        bottom: 20px;
+    }
+    .contacts h5{
+        color: white;
+        position: relative;
+        left: 1130px;
+        font-size: 20px;
+        font-weight: 300;
+        bottom: 5px;
+    }
+    .contacts ul li{
+        color: rgb(251, 0, 0);
+        list-style: none;
+        position: relative;
+    }
+    .contacts h6{
+        color: white;
+        font-size: 18px;
+        font-weight: 300;
+        display: inline;
+        position: relative;
+        margin-left: 20px;
+        left: 1070px;
+        margin-top: 30px;
+    }
+    .stravl h1{
+        color: white;
+        font-size: 25px;
+        font-family: arial;
+        position: relative;
+        bottom: 145px;
+        left: 130px;
+    }
+    .stravl p{
+        font-size: 20px;
+        font-weight: 300;
+        width: 300px;
+        position: relative;
+        bottom: 100px;
+        left: 50px;
+    }
+    .copyright h4{
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        font-family: arial;
+        font-weight: 300;
+        border-top: 3px solid;
+    }
+    
 
